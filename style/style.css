@@ -45,8 +45,11 @@ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
 
 .header-menu a[href="/contact"] {
-  border: 2px solid #1f3cff;
+  
   padding: 0.5rem 1.2rem;
-  border-radius: 999px;
+  background-color: #281CE2;
+  color: white;
+  font-family: "Hind Guntur", arial;
+
   font-weight: 600;
 }
