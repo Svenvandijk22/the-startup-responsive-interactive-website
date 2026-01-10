@@ -1,71 +1,83 @@
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
    font-family: "Hind Guntur", arial;
 }
 
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 
-  padding: 2rem 3rem;
-  background-color: white;
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+   padding: 2rem 3rem;
+   background-color: white;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .header-logo {
-  height: 32px;
-  width: auto;
+   height: 32px;
+   width: auto;
 }
 
 .header-menu {
-  display: flex;
-  gap: 2rem;
-  
-  
+   display: flex;
+   gap: 2rem;
 
-  list-style: none;
- margin-right: 30px;
-  padding: 0;
+
+
+   list-style: none;
+   margin-right: 30px;
+   padding: 0;
 }
 
 .header-menu a {
-  text-decoration: none;
-  color: #000;
-  font-size: 1.1rem;
-  font-weight: 700;
-  font-family: "Hind Guntur", arial;
+   text-decoration: none;
+   color: #000;
+   font-size: 1.1rem;
+   font-weight: 700;
+   font-family: "Hind Guntur", arial;
 
 }
 
 .header-menu a:hover {
- background-color: #000;
- color: white;
- font-family: "Hind Guntur", arial;
- padding: 9px;
-  font-weight: 700;
+   background-color: #000;
+   color: white;
+   font-family: "Hind Guntur", arial;
+   padding: 9px;
+   font-weight: 700;
 
 }
 
 .header-menu a[aria-current="page"] {
-  font-weight: 700;
+   font-weight: 700;
    padding: 10px 12px;
-    background-color: #000;
-    color: white;
- 
+   background-color: #000;
+   color: white;
+
 }
 
 
 .header-menu a[href="/contact"] {
-  
-  padding: 10px 30px;
-  background-color: #281CE2;
-  color: white;
-  font-family: "Hind Guntur", arial;
-  margin-left: 250px;
- 
- 
+   padding: 10px 30px;
+   background-color: #281CE2;
+   color: white;
+   font-family: "Hind Guntur", arial;
+   margin-left: 250px;
+   font-weight: 700;
+}
 
-  font-weight: 700;
+.page-intro{
+
+
+h1{font-size: 50px;
+font-weight: 300;}
+
+h1 strong {
+  font-weight: 800; 
+}
+
 }
