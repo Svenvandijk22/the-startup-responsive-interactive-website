@@ -6,25 +6,30 @@ h5 {
    font-family: "Hind Guntur", arial;
 }
 
+.arrow{ font-size: 19px;
+    display: inline-block;
+
+
+}
 
 header {
 
    padding: 1rem 3rem;
    background-color: white;
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  
-
-   
-    @media (min-width: 982px) {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
 
 
-   padding: 2rem 3rem;
-   background-color: white;
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
+
+   @media (min-width: 982px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+
+      padding: 2rem 3rem;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+   }
 
 }
 
@@ -34,18 +39,19 @@ header {
 }
 
 .header-menu {
- display: none;
-   
-    @media (min-width: 982px) {
-   display: flex;
-   gap: 2rem;
+   display: none;
+
+   @media (min-width: 982px) {
+      display: flex;
+      gap: 2rem;
 
 
 
-   list-style: none;
-   margin-right: 30px;
-   padding: 0;
-}}
+      list-style: none;
+      margin-right: 30px;
+      padding: 0;
+   }
+}
 
 .header-menu a {
    text-decoration: none;
@@ -73,61 +79,58 @@ header {
 
 }
 
-
 .header-menu a[href="/contact"] {
 
 
-    @media (min-width: 982px) {
-         padding: 10px 30px;
-   background-color: #281CE2;
-   color: white;
-   font-family: "Hind Guntur", arial;
-   margin-left: 250px;
-   font-weight: 700;
+   @media (min-width: 982px) {
+      padding: 10px 30px;
+      background-color: #281CE2;
+      color: white;
+      font-family: "Hind Guntur", arial;
+      margin-left: 250px;
+      font-weight: 700;
 
 
-    }
+   }
 
 }
 
-
 .fab-menu {
-  position: fixed;
-    right: 0;
-  bottom: 0;
- 
-  z-index: 9999;
+   position: fixed;
+   right: 0;
+   bottom: 0;
 
-  width: 56px;
-  height: 56px;
-  
- 
-  background-color: #281CE2;
-  color: #fff;
+   z-index: 9999;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+   width: 56px;
+   height: 56px;
 
-  cursor: pointer;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+
+   background-color: #281CE2;
+   color: #fff;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   cursor: pointer;
+   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
 /* Desktop: verberg de floating button */
 @media (min-width: 982px) {
-  .fab-menu {
-    display: none;
-  }
+   .fab-menu {
+      display: none;
+   }
 }
-
 
 .page-intro {
 
    h1 {
       font-size: 40px;
       font-weight: 400;
-      padding-left: 10px;
-       width: fit-content;
+      padding-left: 25px;
+      width: fit-content;
    }
 
    h1 strong {
@@ -142,7 +145,7 @@ header {
          font-weight: 400;
          padding-left: 10px;
          width: 300px;
-       
+
       }
 
       h1 strong {
@@ -156,8 +159,8 @@ header {
          font-size: 50px;
          font-weight: 400;
          padding-left: 210px;
-          width: fit-content;
-          
+         width: fit-content;
+
       }
 
       h1 strong {
@@ -166,13 +169,194 @@ header {
    }
 }
 
+.Voetbal-International-section {
+   padding: 0 25px;
+
+   a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
 
 
+   }
 
-.Voetbal-International-section{
-padding: 25px;
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
 
-   img{
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.Lunar-Institute-section {
+   padding: 25px;
+
+    a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
+
+
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.Dushi-Huis-section {
+   padding: 25px;
+    a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
+
+
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.Munji-section {
+   padding: 25px;
+
+    a{
+      font-size: 18px;
+      font-family: "Hind Guntur", arial ;
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+
+.Jurriëns-section {
+   padding: 25px;
+    a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.Eurid-section {
+   padding: 25px;
+    a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
+
+
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.Invest-International-section {
+   padding: 25px;
+    a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
+
+
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+   img {
 
       width: 315px;
       height: 178px;
@@ -182,24 +366,28 @@ padding: 25px;
 
 
 
-.Lunar-Institute-section{
-padding: 25px;
+.Gerrit-Jans-Hoeve-section {
+   padding: 25px;
+    a{font-size: 18px;
+      font-family: "Hind Guntur", arial ;
 
-   img{
 
-      width: 315px;
-      height: 178px;
    }
-}
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
 
 
-
-
-
-.Dushi-Huis-section{
-padding: 25px;
-
-   img{
+   img {
 
       width: 315px;
       height: 178px;
