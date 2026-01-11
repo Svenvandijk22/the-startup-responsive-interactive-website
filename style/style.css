@@ -92,14 +92,16 @@ header {
 
 
 .fab-menu {
-  position: sticky;
+  position: fixed;
+    right: 0;
+  bottom: 0;
  
   z-index: 9999;
 
   width: 56px;
   height: 56px;
-  border: 0;
-  border-radius: 999px;
+  
+ 
   background-color: #281CE2;
   color: #fff;
 
@@ -168,6 +170,33 @@ header {
 
 
 .Voetbal-International-section{
+padding: 25px;
+
+   img{
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+
+
+
+.Lunar-Institute-section{
+padding: 25px;
+
+   img{
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+
+
+
+
+.Dushi-Huis-section{
 padding: 25px;
 
    img{
