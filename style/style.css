@@ -2,7 +2,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
    font-family: "Hind Guntur", arial;
 }
 
@@ -206,7 +207,7 @@ header {
 
    }
 
-   h2 {
+   h3 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -232,7 +233,7 @@ header {
 
    }
 
-   h2 {
+   h4 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -260,7 +261,7 @@ header {
       font-family: "Hind Guntur", arial ;
    }
 
-   h2 {
+   h5 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -287,7 +288,7 @@ header {
       font-family: "Hind Guntur", arial ;
    }
 
-   h2 {
+   h6 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -315,7 +316,7 @@ header {
 
    }
 
-   h2 {
+   h6 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -343,7 +344,7 @@ header {
 
    }
 
-   h2 {
+   h6 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -374,7 +375,7 @@ header {
 
    }
 
-   h2 {
+   h6 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
