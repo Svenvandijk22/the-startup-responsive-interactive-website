@@ -199,7 +199,7 @@ header {
 }
 
 .Lunar-Institute-section {
-   padding: 25px;
+   padding: 0 25px;
 
     a{font-size: 18px;
       font-family: "Hind Guntur", arial ;
@@ -226,7 +226,7 @@ header {
 }
 
 .Dushi-Huis-section {
-   padding: 25px;
+   padding: 0 25px;
     a{font-size: 18px;
       font-family: "Hind Guntur", arial ;
 
@@ -254,7 +254,9 @@ header {
 }
 
 .Munji-section {
-   padding: 25px;
+   padding: 0 25px;
+
+   margin: 0px;
 
     a{
       font-size: 18px;
@@ -283,7 +285,7 @@ header {
 
 
 .Jurriëns-section {
-   padding: 25px;
+   padding: 0 25px;
     a{font-size: 18px;
       font-family: "Hind Guntur", arial ;
    }
@@ -309,7 +311,7 @@ header {
 }
 
 .Eurid-section {
-   padding: 25px;
+   padding: 0 25px;
     a{font-size: 18px;
       font-family: "Hind Guntur", arial ;
 
@@ -337,7 +339,7 @@ header {
 }
 
 .Invest-International-section {
-   padding: 25px;
+   padding: 0 25px;
     a{font-size: 18px;
       font-family: "Hind Guntur", arial ;
 
@@ -368,7 +370,7 @@ header {
 
 
 .Gerrit-Jans-Hoeve-section {
-   padding: 25px;
+   padding: 0 25px;
     a{font-size: 18px;
       font-family: "Hind Guntur", arial ;
 
