@@ -44,64 +44,54 @@ header {
 
 
 
-
+/*d*/
 
 .header-menu {
-   display: none;
+  display: none;
 
-   @media (min-width: 982px) {
-      display: flex;
-      gap: 2rem;
+  @media (min-width: 982px) {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 30px;
+    padding: 0;
+  }
 
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "Hind Guntur", arial;
 
-
-      list-style: none;
-      margin-right: 30px;
-      padding: 0;
-   }
-}
-
-.header-menu a {
-   text-decoration: none;
-   color: #000;
-   font-size: 1.1rem;
-   font-weight: 700;
-   font-family: "Hind Guntur", arial;
-
-}
-
-.header-menu a:hover {
-   background-color: #000;
-   color: white;
-   font-family: "Hind Guntur", arial;
-   padding: 9px;
-   font-weight: 700;
-
-}
-
-.header-menu a[aria-current="page"] {
-   font-weight: 700;
-   padding: 10px 12px;
-   background-color: #000;
-   color: white;
-
-}
-
-.header-menu a[href="/contact"] {
-
-
-   @media (min-width: 982px) {
-      padding: 10px 30px;
-      background-color: #281CE2;
+    &:hover {
+      background-color: #000;
       color: white;
-      font-family: "Hind Guntur", arial;
-      margin-left: 250px;
+      padding: 9px;
       font-weight: 700;
+    }
 
+    &[aria-current="page"] {
+      font-weight: 700;
+      padding: 10px 12px;
+      background-color: #000;
+      color: white;
+    }
 
-   }
-
+    &[href="/contact"] {
+      @media (min-width: 982px) {
+        padding: 10px 30px;
+        background-color: #281CE2;
+        color: white;
+        margin-left: 250px;
+        font-weight: 700;
+      }
+    }
+  }
 }
+
+
+/*d*/
 
 .fab-menu {
    position: fixed;
@@ -110,8 +100,8 @@ header {
 
    z-index: 9999;
 
-   width: 56px;
-   height: 56px;
+   width: 110px;
+   height: 110px;
 
 
    background-color: #281CE2;
@@ -123,20 +113,23 @@ header {
 
    cursor: pointer;
    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-}
 
-/* Desktop: verberg de floating button */
-@media (min-width: 982px) {
-   .fab-menu {
+
+   @media (min-width: 982px) {
+    
       display: none;
    }
 }
 
+
+
+
+
 .menu-overlay{
   position: fixed;
-  inset: 0;               /* vult hele scherm */
+  inset: 0;               
   background: white;
-  z-index: 10000;
+  z-index: 100;
 
   display: none;          /* dicht */
   padding: 5rem 2rem;
@@ -154,18 +147,24 @@ header {
   padding: 0;
   display: grid;
   gap: 1rem;
-}
-
-.menu-list a{
-  font-size: 1.6rem;
+  
+  a{
+   padding: 20px 40px 20px 20px;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: none;
   color: black;
+  font-family: "Hind Guntur", arial;
 }
+
+  
+  
+}
+
 
 /* Desktop: niet nodig */
 @media (min-width: 982px){
-  .menu-overlay{ display:none !important; }
+  .menu-overlay{ display:none ; }
 }
 
 
