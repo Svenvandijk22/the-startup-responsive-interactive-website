@@ -39,6 +39,13 @@ header {
    width: auto;
 }
 
+
+
+
+
+
+
+
 .header-menu {
    display: none;
 
@@ -124,6 +131,44 @@ header {
       display: none;
    }
 }
+
+.menu-overlay{
+  position: fixed;
+  inset: 0;               /* vult hele scherm */
+  background: white;
+  z-index: 10000;
+
+  display: none;          /* dicht */
+  padding: 5rem 2rem;
+}
+
+/* Open state */
+.menu-overlay.is-open{
+  display: block;
+}
+
+/* Menu styling */
+.menu-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.menu-list a{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+/* Desktop: niet nodig */
+@media (min-width: 982px){
+  .menu-overlay{ display:none !important; }
+}
+
+
 
 .page-intro {
 
@@ -256,20 +301,23 @@ header {
 .Munji-section {
    padding: 0 25px;
 
-   margin: 0px;
 
     a{
+        margin: 0;
       font-size: 18px;
       font-family: "Hind Guntur", arial ;
    }
 
    h5 {
+        margin: 0;
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
+      padding-bottom: 20px;
    }
 
    p {
+        margin: 0;
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
@@ -277,6 +325,7 @@ header {
 
 
    img {
+      margin-bottom: 20px;
 
       width: 315px;
       height: 178px;
