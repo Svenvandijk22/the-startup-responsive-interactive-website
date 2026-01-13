@@ -278,7 +278,9 @@ header {
       font-weight: 200;
 
       @media (min-width: 1080px) {
+         font-size: 42px;
          padding-right:250px ;
+         padding-top: 50px;
          
         grid-column: 2 / 3;
     }
@@ -295,6 +297,7 @@ header {
 
       @media (min-width: 1080px) {
        grid-column: 2 / 3;
+       padding-bottom: 50px;
     }
          
       }
@@ -326,7 +329,8 @@ header {
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto; 
+    align-items: start;
       gap: 10px;
     
     
