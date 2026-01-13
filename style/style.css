@@ -1,13 +1,42 @@
+:root {
+   --header-kleur: #FFFFFF;
+   --bg-kleur: #FFFFFF;
+
+   --knop-pagina-nummer: #E2655E;
+   --knop-pagina-nummer-actief: #281CE2;
+
+   --knop: #FFFFFF;
+   --knop-actief: #000000;
+
+   --hamburger-menu-knop: #281CE2;
+
+   --kleur-footer-bg: #e6e6e6;
+
+}
+
+/* font-size + weight */
+:root {
+   --font-size-xxl: 52.1253px;
+   --font-size-xl: 37.5px;
+   --font-size-l: 35px;
+   --font-size-m: 30px;
+   --font-size-s: 19px;
+   --font-size-xs: 18px;
+
+   --font-weight-strong: 700;
+   --font-weight-normal: 100;
+}
+
+
+
 h1,
-h2
-{
+h2 {
    font-family: "Hind Guntur", arial;
 }
 
 .arrow {
    font-size: 19px;
    display: inline-block;
-
 
 }
 
@@ -36,10 +65,6 @@ header {
    height: 32px;
    width: auto;
 }
-
-
-
-
 
 
 /*d*/
@@ -95,14 +120,16 @@ header {
    position: fixed;
    right: 0;
    bottom: 0;
+   border: none;
+   
 
    z-index: 9999;
 
-   width: 110px;
-   height: 110px;
+   width: 100px;
+   height: 100px;
 
 
-   background-color: #281CE2;
+   background-color: var(--knop-pagina-nummer);
    color: #fff;
 
    display: flex;
@@ -110,7 +137,7 @@ header {
    justify-content: center;
 
    cursor: pointer;
-   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  
 
 
    @media (min-width: 982px) {
@@ -137,6 +164,7 @@ header {
 /* Open state */
 .menu-overlay.is-open {
    display: block;
+   padding: 70px 40px;
 }
 
 /* Menu styling */
@@ -156,7 +184,16 @@ header {
       font-family: "Hind Guntur", arial;
    }
 
-
+   input {
+      background-color: var(--kleur-footer-bg);
+    
+      padding: 15px 20px 8px;
+      font-family: "Hind Guntur", arial;
+      font-size: 16px;
+      margin-bottom: 30px;
+      border: none;
+     
+   }
 
 }
 
@@ -202,7 +239,7 @@ header {
    @media (min-width: 1080px) {
 
       h1 {
-         font-size: 50px;
+         font-size: 60px;
          font-weight: 400;
          padding-left: 210px;
          width: fit-content;
@@ -216,33 +253,90 @@ header {
 }
 
 .voetbal-international-section {
+
    padding: 0 25px;
 
    a {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
+     
+
+      @media (min-width: 1080px) {
+         grid-column: 2 / 3;
+    }
+       
+      }
 
 
-   }
+   
+
+ 
 
    h2 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
-   }
+
+      @media (min-width: 1080px) {
+         padding-right:250px ;
+         
+        grid-column: 2 / 3;
+    }
+         
+      }
+
+   
+
 
    p {
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
-   }
+
+      @media (min-width: 1080px) {
+       grid-column: 2 / 3;
+    }
+         
+      }
+   
 
    img {
 
       width: 315px;
       height: 178px;
+
+      @media (min-width: 1080px) {
+
+         padding-left: 190px;
+     grid-column: 1 / 2;
+      grid-row: 1 / 4; 
+    
+
+
+         width: 460px;
+         height: 520px;
+
+      }
    }
+
+
+
+   @media (min-width: 1080px) {
+
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+    
+    
+    }
 }
+
+
+
+
+
 
 .lunar-institute-section {
    padding: 0 25px;
@@ -267,6 +361,7 @@ header {
    }
 
    img {
+     margin-top: 50px; 
 
       width: 315px;
       height: 178px;
@@ -297,7 +392,9 @@ header {
 
 
    img {
-
+      
+      
+       margin-top: 50px; 
       width: 315px;
       height: 178px;
    }
@@ -330,7 +427,7 @@ header {
 
 
    img {
-      margin-bottom: 20px;
+       margin-top: 50px; 
 
       width: 315px;
       height: 178px;
@@ -361,6 +458,8 @@ header {
 
    img {
 
+      margin-top: 50px; 
+
       width: 315px;
       height: 178px;
    }
@@ -390,7 +489,7 @@ header {
 
 
    img {
-
+      margin-top: 50px; 
       width: 315px;
       height: 178px;
    }
@@ -420,7 +519,7 @@ header {
 
 
    img {
-
+      margin-top: 50px; 
       width: 315px;
       height: 178px;
    }
@@ -453,7 +552,7 @@ header {
 
 
    img {
-
+       margin-top: 50px; 
       width: 315px;
       height: 178px;
    }
