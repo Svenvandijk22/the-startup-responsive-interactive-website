@@ -1,14 +1,12 @@
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2
+{
    font-family: "Hind Guntur", arial;
 }
 
-.arrow{ font-size: 19px;
-    display: inline-block;
+.arrow {
+   font-size: 19px;
+   display: inline-block;
 
 
 }
@@ -47,47 +45,47 @@ header {
 /*d*/
 
 .header-menu {
-  display: none;
+   display: none;
 
-  @media (min-width: 982px) {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    margin-right: 30px;
-    padding: 0;
-  }
+   @media (min-width: 982px) {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      margin-right: 30px;
+      padding: 0;
+   }
 
-  a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.1rem;
-    font-weight: 700;
-    font-family: "Hind Guntur", arial;
-
-    &:hover {
-      background-color: #000;
-      color: white;
-      padding: 9px;
+   a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1.1rem;
       font-weight: 700;
-    }
+      font-family: "Hind Guntur", arial;
 
-    &[aria-current="page"] {
-      font-weight: 700;
-      padding: 10px 12px;
-      background-color: #000;
-      color: white;
-    }
-
-    &[href="/contact"] {
-      @media (min-width: 982px) {
-        padding: 10px 30px;
-        background-color: #281CE2;
-        color: white;
-        margin-left: 250px;
-        font-weight: 700;
+      &:hover {
+         background-color: #000;
+         color: white;
+         padding: 9px;
+         font-weight: 700;
       }
-    }
-  }
+
+      &[aria-current="page"] {
+         font-weight: 700;
+         padding: 10px 12px;
+         background-color: #000;
+         color: white;
+      }
+
+      &[href="/contact"] {
+         @media (min-width: 982px) {
+            padding: 10px 30px;
+            background-color: #281CE2;
+            color: white;
+            margin-left: 250px;
+            font-weight: 700;
+         }
+      }
+   }
 }
 
 
@@ -116,7 +114,7 @@ header {
 
 
    @media (min-width: 982px) {
-    
+
       display: none;
    }
 }
@@ -125,46 +123,49 @@ header {
 
 
 
-.menu-overlay{
-  position: fixed;
-  inset: 0;               
-  background: white;
-  z-index: 100;
+.menu-overlay {
+   position: fixed;
+   inset: 0;
+   background: white;
+   z-index: 100;
 
-  display: none;          /* dicht */
-  padding: 5rem 2rem;
+   display: none;
+   /* dicht */
+   padding: 5rem 2rem;
 }
 
 /* Open state */
-.menu-overlay.is-open{
-  display: block;
+.menu-overlay.is-open {
+   display: block;
 }
 
 /* Menu styling */
-.menu-list{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 1rem;
-  
-  a{
-   padding: 20px 40px 20px 20px;
-  font-size: 30px;
-  font-weight: 700;
-  text-decoration: none;
-  color: black;
-  font-family: "Hind Guntur", arial;
-}
+.menu-list {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: grid;
+   gap: 1rem;
 
-  
-  
+   a {
+      padding: 20px 40px 20px 20px;
+      font-size: 30px;
+      font-weight: 700;
+      text-decoration: none;
+      color: black;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+
 }
 
 
 /* Desktop: niet nodig */
-@media (min-width: 982px){
-  .menu-overlay{ display:none ; }
+@media (min-width: 982px) {
+   .menu-overlay {
+      display: none;
+   }
 }
 
 
@@ -214,11 +215,12 @@ header {
    }
 }
 
-.Voetbal-International-section {
+.voetbal-international-section {
    padding: 0 25px;
 
-   a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
+   a {
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
 
 
    }
@@ -242,73 +244,77 @@ header {
    }
 }
 
-.Lunar-Institute-section {
+.lunar-institute-section {
    padding: 0 25px;
 
-    a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
-
-
-   }
-
-   h3 {
-      font-size: 37px;
-      line-height: 1.15;
-      font-weight: 200;
-   }
-
-   p {
-      font-size: 19px;
-      line-height: 1.5;
-      font-family: "Hind Guntur", arial;
-   }
-   img {
-
-      width: 315px;
-      height: 178px;
-   }
-}
-
-.Dushi-Huis-section {
-   padding: 0 25px;
-    a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
-
-
-   }
-
-   h4 {
-      font-size: 37px;
-      line-height: 1.15;
-      font-weight: 200;
-   }
-
-   p {
-      font-size: 19px;
-      line-height: 1.5;
-      font-family: "Hind Guntur", arial;
-   }
-
-
-   img {
-
-      width: 315px;
-      height: 178px;
-   }
-}
-
-.Munji-section {
-   padding: 0 25px;
-
-
-    a{
-        margin: 0;
+   a {
       font-size: 18px;
-      font-family: "Hind Guntur", arial ;
+      font-family: "Hind Guntur", arial;
+
+
    }
 
-   h5 {
-        margin: 0;
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.dushi-huis-section {
+   padding: 0 25px;
+
+   a {
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
+
+
+   }
+
+   h2 {
+      font-size: 37px;
+      line-height: 1.15;
+      font-weight: 200;
+   }
+
+   p {
+      font-size: 19px;
+      line-height: 1.5;
+      font-family: "Hind Guntur", arial;
+   }
+
+
+   img {
+
+      width: 315px;
+      height: 178px;
+   }
+}
+
+.munji-section {
+   padding: 0 25px;
+
+
+   a {
+      margin: 0;
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
+   }
+
+   h2 {
+      margin: 0;
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -316,7 +322,7 @@ header {
    }
 
    p {
-        margin: 0;
+      margin: 0;
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
@@ -332,13 +338,15 @@ header {
 }
 
 
-.Jurriëns-section {
+.jurriëns-section {
    padding: 0 25px;
-    a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
+
+   a {
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
    }
 
-   h6 {
+   h2 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -358,15 +366,17 @@ header {
    }
 }
 
-.Eurid-section {
+.eurid-section {
    padding: 0 25px;
-    a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
+
+   a {
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
 
 
    }
 
-   h6 {
+   h2 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -386,15 +396,17 @@ header {
    }
 }
 
-.Invest-International-section {
+.invest-International-section {
    padding: 0 25px;
-    a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
+
+   a {
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
 
 
    }
 
-   h6 {
+   h2 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
@@ -417,15 +429,17 @@ header {
 
 
 
-.Gerrit-Jans-Hoeve-section {
+.gerrit-jans-hoeve-section {
    padding: 0 25px;
-    a{font-size: 18px;
-      font-family: "Hind Guntur", arial ;
+
+   a {
+      font-size: 18px;
+      font-family: "Hind Guntur", arial;
 
 
    }
 
-   h6 {
+   h2 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
