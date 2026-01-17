@@ -421,6 +421,9 @@ header {
 
 .lunar-institute-section {
    padding: 0 25px;
+
+   a{text-decoration: none;
+   color: #000;}
    
 
    .linkbold {
@@ -434,8 +437,8 @@ header {
         
        
          width: 500px;
-            padding-top: 220px;
-             padding-left: 190px;
+            padding-top: 10px;
+           
       }
 
 
@@ -452,6 +455,7 @@ header {
          padding-top: 50px;
          width: 500px;
            padding-left: 190px;
+         
       }
    }
 
@@ -464,7 +468,7 @@ header {
          padding-left: 190px;
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-         padding-top: 70px;
+         padding-top: 10px;
          width: 500px;
       }
    }
@@ -509,16 +513,20 @@ header {
 
 
 .dushi-huis-section {
+   
    padding: 0 25px;
 
-   a {
+   a{text-decoration: none;
+   color: #000;}
+
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
       font-weight: 700;
 
 
       @media (min-width: 1080px) {
-         padding-top: 210px;
+         padding-top: 10px;
          grid-column: 2 / 2;
          grid-row: 2 / 2;
       }
@@ -534,7 +542,7 @@ header {
          font-size: 42px;
          padding-right: 250px;
          width: 450px;
-         padding-top: 50px;
+         padding-top: 40px;
 
 
          grid-column: 2 / 2;
@@ -551,17 +559,18 @@ header {
       @media (min-width: 1080px) {
          grid-column: 2 / 2;
          grid-row: 2/ 2;
-         padding-top: 60px;
+         padding-top: 10px;
          width: 500px;
       }
 
    }
 
    img {
-      margin-top: 20px;
 
       width: 315px;
       height: 178px;
+      margin-top: 20px;
+    
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -582,20 +591,23 @@ header {
       display: grid;
       grid-template-columns: 750px auto;
       grid-template-rows: 180px auto;
-      margin-top: 50px;
 
       align-items: start;
       gap: 10px;
+       margin-top: 50px;
 
 
    }
 }
 
 .munji-section {
-  padding: 0 25px;
+   padding: 0 25px;
+
+   a{text-decoration: none;
+   color: #000;}
    
 
-   a {
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
       font-weight: 700;
@@ -606,8 +618,8 @@ header {
         
        
          width: 500px;
-            padding-top: 200px;
-             padding-left: 190px;
+            padding-top: 10px;
+           
       }
 
 
@@ -624,6 +636,7 @@ header {
          padding-top: 80px;
          width: 500px;
            padding-left: 190px;
+         
       }
    }
 
@@ -636,7 +649,7 @@ header {
          padding-left: 190px;
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-         padding-top: 50px;
+         padding-top: 10px;
          width: 500px;
       }
    }
@@ -647,6 +660,7 @@ header {
 
       width: 315px;
       height: 178px;
+        filter: grayscale(20%) brightness(95%);
 
       @media (min-width: 1080px) {
          grid-column: 2/ 2;
@@ -676,98 +690,117 @@ header {
    }
 }
 
-
-#links{
-
-
-
-}
-
 .jurriëns-section {
-   padding: 0 25px;
+  padding: 0 25px;
 
- 
+   a{text-decoration: none;
+   color: #000;}
 
-
-   img {
-
-      margin-top: 50px;
-
-      width: 315px;
-      height: 178px;
-
-      @media (min-width: 1080px) {
-        height: 410px;
-         width: 512px;
-         margin-left: 190px;
-
-      }
-   }
-
-
- @media (min-width: 1080px) {
-
-      display: flex;
-      height: 480px;
-     
-      
-      gap: 10px;
-
-
-   }
-
-
-}
-
-.link-animatie{  
-   text-decoration: none;
-   color: #000;
-    @media (min-width: 1080px) {
-        
-         margin-top: 80px;
-         margin-left: 30px;
-
-      }
-
- 
-     a {
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
+      font-weight: 700;
+
+
+      @media (min-width: 1080px) {
+         padding-top: 10px;
+         grid-column: 2 / 2;
+         grid-row: 2 / 2;
       }
+
+   }
 
    h2 {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
+
+      @media (min-width: 1080px) {
+         font-size: 42px;
+         padding-right: 250px;
+         width: 450px;
+         padding-top: 60px;
+
+
+         grid-column: 2 / 2;
+         grid-row: 1 / 2;
+      }
+
    }
 
    p {
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
-      width: 470px;
 
+      @media (min-width: 1080px) {
+         grid-column: 2 / 2;
+         grid-row: 2/ 2;
+         padding-top: 10px;
+         width: 500px;
+      }
 
+   }
 
+   img {
+
+      width: 315px;
+      height: 178px;
+      margin-top: 20px;
+    
+
+      @media (min-width: 1080px) {
+         grid-column: 1 / 2;
+         padding-left: 100px;
+
+         grid-row: 1 / 3;
+         padding-left: 190px;
+
+         width: 520px;
+         height: 420px;
+
+      }
    }
 
 
    @media (min-width: 1080px) {
 
-    height: 480px;
-     
-   gap: 10px;
+      display: grid;
+      grid-template-columns: 750px auto;
+      grid-template-rows: 180px auto;
+
+      align-items: start;
+      gap: 10px;
+       margin-top: 50px;
 
 
    }
-     }
+
+}
+
+
 
 .eurid-section {
    padding: 0 25px;
 
-   a {
+   a{text-decoration: none;
+   color: #000;}
+   
+
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
+      font-weight: 700;
+
+      @media (min-width: 1080px) {
+         grid-column: 1 / 2;
+         grid-row: 2 / 2;
+        
+       
+         width: 450px;
+            padding-top: 10px;
+           
+      }
 
 
    }
@@ -776,29 +809,85 @@ header {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
+
+      @media (min-width: 1080px) {
+         grid-column: 1 / 2;
+         grid-row: 1 / 2;
+         padding-top: 80px;
+         width: 420px;
+           padding-left: 190px;
+         
+      }
    }
 
    p {
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
+
+      @media (min-width: 1080px) {
+         padding-left: 190px;
+         grid-column: 1 / 2;
+         grid-row: 2 / 2;
+         padding-top: 10px;
+         width: 470px;
+      }
    }
 
-
    img {
-      margin-top: 50px;
+      margin-top: 20px;
+    
+
       width: 315px;
       height: 178px;
+        filter: grayscale(20%) brightness(95%);
+
+      @media (min-width: 1080px) {
+         grid-column: 2/ 2;
+
+         grid-row: 1 / 3;
+         padding-left: 10px;
+        
+
+        
+         width: 520px;
+         height: 470px;
+
+      }
+   }
+
+   @media (min-width: 1080px) {
+
+      display: grid;
+      grid-template-columns: auto 750px;
+      grid-template-rows: 180px auto;
+      margin-top: 50px;
+
+      
+      gap: 10px;
+
+
    }
 }
 
-.invest-International-section {
+.invest-International-section{
+
    padding: 0 25px;
 
-   a {
+   a{text-decoration: none;
+   color: #000;}
+
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
+      font-weight: 700;
 
+
+      @media (min-width: 1080px) {
+         padding-top: 10px;
+         grid-column: 2 / 2;
+         grid-row: 2 / 2;
+      }
 
    }
 
@@ -806,31 +895,90 @@ header {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
+
+      @media (min-width: 1080px) {
+         font-size: 42px;
+         padding-right: 250px;
+         width: 450px;
+         padding-top: 40px;
+
+
+         grid-column: 2 / 2;
+         grid-row: 1 / 2;
+      }
+
    }
 
    p {
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
-   }
 
+      @media (min-width: 1080px) {
+         grid-column: 2 / 2;
+         grid-row: 2/ 2;
+         padding-top: 10px;
+         width: 500px;
+      }
+
+   }
 
    img {
-      margin-top: 50px;
+
       width: 315px;
       height: 178px;
+      margin-top: 20px;
+    
+
+      @media (min-width: 1080px) {
+         grid-column: 1 / 2;
+         padding-left: 100px;
+
+         grid-row: 1 / 3;
+         padding-left: 190px;
+
+         width: 520px;
+         height: 500px;
+
+      }
    }
+
+
+   @media (min-width: 1080px) {
+
+      display: grid;
+      grid-template-columns: 750px auto;
+      grid-template-rows: 180px auto;
+
+      align-items: start;
+      gap: 10px;
+       margin-top: 50px;
+
 }
-
-
+}
 
 
 .gerrit-jans-hoeve-section {
-   padding: 0 25px;
+    padding: 0 25px;
 
-   a {
+   a{text-decoration: none;
+   color: #000;}
+   
+
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
+      font-weight: 700;
+
+      @media (min-width: 1080px) {
+         grid-column: 1 / 2;
+         grid-row: 2 / 2;
+        
+       
+         width: 450px;
+            padding-top: 10px;
+           
+      }
 
 
    }
@@ -839,18 +987,165 @@ header {
       font-size: 37px;
       line-height: 1.15;
       font-weight: 200;
+
+      @media (min-width: 1080px) {
+         grid-column: 1 / 2;
+         grid-row: 1 / 2;
+         padding-top: 50px;
+         width: 420px;
+           padding-left: 190px;
+         
+      }
    }
 
    p {
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
-   }
 
+      @media (min-width: 1080px) {
+         padding-left: 190px;
+         grid-column: 1 / 2;
+         grid-row: 2 / 2;
+         padding-top: 10px;
+         width: 470px;
+      }
+   }
 
    img {
-      margin-top: 50px;
+      margin-top: 20px;
+    
+
       width: 315px;
       height: 178px;
+        filter: grayscale(20%) brightness(95%);
+
+      @media (min-width: 1080px) {
+         grid-column: 2/ 2;
+
+         grid-row: 1 / 3;
+         padding-left: 10px;
+        
+
+        
+         width: 520px;
+         height: 380px;
+
+      }
+   }
+
+   @media (min-width: 1080px) {
+
+      display: grid;
+      grid-template-columns: auto 750px;
+      grid-template-rows: 180px auto;
+      margin-top: 50px;
+
+      
+      gap: 10px;
+
+
    }
 }
+
+
+footer{
+    padding: 2rem;
+    position: relative;
+    background-color: #E6E6E6;
+     margin: 3.5rem auto 23rem auto;
+     
+     footernavigatie{
+                font-style: normal;
+                font-size: 28px;
+                font-family: "Hind Guntur", arial;;
+                display: flex;
+                flex-direction: column;
+                line-height: 1.5;
+                padding-bottom: 0.5rem;
+            }
+
+        @media (min-width:770px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10rem;
+        }
+        @media (min-width:850px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    
+   
+       
+        .bedrijf-info-section{
+            margin-top: 2rem;
+           
+          
+        }
+        .diensten-section{
+            margin-top: 2rem;
+
+             h3{font-family: "Hind Guntur", arial;
+                font-size: 28px;
+                 font-weight: 300;
+
+
+            }
+            ul{
+                padding: 0;
+                list-style-type: none;
+
+            }
+            li{ font-family: "Hind Guntur", arial;
+               font-size: 18px;
+            text-decoration: none;
+         color: #000;}
+
+         a{
+            
+           font-family: "Hind Guntur", arial;
+               font-size: 18px;
+            text-decoration: none;
+         color: #000;}
+
+
+         
+        }
+        .informatie-section{
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            
+             h3{font-family: "Hind Guntur", arial;
+                font-size: 28px;
+                font-weight: 300;
+
+
+            }
+            ul{
+                padding: 0;
+                list-style-type: none;
+
+            }
+            li{ font-family: "Hind Guntur", arial;
+               font-size: 18px;
+            text-decoration: none;
+         color: #000;}
+
+         a{
+            
+           font-family: "Hind Guntur", arial;
+               font-size: 18px;
+            text-decoration: none;
+         color: #000;}
+          
+            }
+            button{
+                margin-top: 2rem;
+                border: none;
+                background: none;
+                font-size: 18px;
+            }
+        }
+    
+
+
