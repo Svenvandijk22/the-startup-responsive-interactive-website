@@ -234,7 +234,32 @@ header {
       text-decoration: none;
       color: black;
       font-family: "Hind Guntur", arial;
+      z-index: 0;
+      position: relative;/*die heb je nodig om de postion absolute te laten werken :)*/ 
+       height: 5em; /*Dit is de hoogte van het atje en de 100% van de after houd deze aan*/
+
+       &:hover{
+         color: white;
+      }
    }
+    a::after{
+      position: absolute; /*hiermee kan ik je met left en bottom bepalen waar die start*/
+      content: ""; /*anders werkt de after niet ik weet niet waarom :(*/
+      z-index: -1;
+       background-color: #000;
+       height: 100%;
+       left: 0;
+       bottom: 0;
+       width: 0; /*hiermee zie je het nog niet*/
+       transition-duration: 0.4s;
+     }
+
+     a:hover::after{
+      width: 100%; /*hiermee wordt hij zichtbaar */
+      font-weight: 700;
+     }
+
+ 
 
    input {
       background-color: var(--kleur-footer-bg);
@@ -308,14 +333,17 @@ header {
 
    padding: 0 25px;
 
-   a {
+   a{text-decoration: none;
+   color: #000;}
+
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
       font-weight: 700;
 
 
       @media (min-width: 1080px) {
-         padding-top: 210px;
+         padding-top: 10px;
          grid-column: 2 / 2;
          grid-row: 2 / 2;
       }
@@ -347,7 +375,7 @@ header {
       @media (min-width: 1080px) {
          grid-column: 2 / 2;
          grid-row: 2/ 2;
-         padding-top: 60px;
+         padding-top: 10px;
          width: 500px;
       }
 
@@ -395,7 +423,7 @@ header {
    padding: 0 25px;
    
 
-   a {
+   .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
       font-weight: 700;
@@ -649,6 +677,12 @@ header {
 }
 
 
+#links{
+
+
+
+}
+
 .jurriëns-section {
    padding: 0 25px;
 
@@ -661,13 +695,20 @@ header {
 
       width: 315px;
       height: 178px;
+
+      @media (min-width: 1080px) {
+        height: 410px;
+         width: 512px;
+         margin-left: 190px;
+
+      }
    }
 
 
  @media (min-width: 1080px) {
 
       display: flex;
-      height: 600px;
+      height: 480px;
      
       
       gap: 10px;
@@ -679,12 +720,20 @@ header {
 }
 
 .link-animatie{  
+   text-decoration: none;
+   color: #000;
+    @media (min-width: 1080px) {
+        
+         margin-top: 80px;
+         margin-left: 30px;
+
+      }
 
  
      a {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-   }
+      }
 
    h2 {
       font-size: 37px;
@@ -696,6 +745,7 @@ header {
       font-size: 19px;
       line-height: 1.5;
       font-family: "Hind Guntur", arial;
+      width: 470px;
 
 
 
@@ -704,11 +754,9 @@ header {
 
    @media (min-width: 1080px) {
 
-    
-      height: 600px;
+    height: 480px;
      
-      
-      gap: 10px;
+   gap: 10px;
 
 
    }
