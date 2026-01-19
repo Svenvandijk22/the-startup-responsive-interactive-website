@@ -367,7 +367,7 @@ header {
 
    h2 {
       font-size: 37px;
-      line-height: 1.15;
+      line-height: 1.25;
       font-weight: 200;
 
       @media (min-width: 1080px) {
@@ -381,6 +381,19 @@ header {
       }
 
    }
+
+   .hover-animatie-h2 span {
+background: linear-gradient(black, black);
+background-size: 0 60%;
+background-position: 0 0.2em;
+background-repeat: no-repeat;
+transition: background-size .5s ease-out, color 0.5s ease-out;
+}
+
+.hover-animatie-h2 span:hover {
+color: white;
+background-size: 100% 60%;
+}
 
    p {
       font-size: 19px;
