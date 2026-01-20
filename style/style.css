@@ -24,7 +24,7 @@
    --font-size-xs: 18px;
 
    --font-weight-strong: 700;
-   --font-weight-normal: 100;
+   --font-weight-normal: 200;
 }
 
 
@@ -43,7 +43,7 @@ h2 {
 header {
 
    padding: 1rem 3rem;
-   background-color: white;
+   background-color: var( --header-kleur);
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
 
@@ -55,7 +55,7 @@ header {
 
 
       padding: 2rem 3rem;
-      background-color: white;
+      background-color: var(--bg-kleur);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
    }
 
@@ -83,7 +83,7 @@ header {
       content: "";
       /*anders werkt de after niet ik weet niet waarom :(*/
       z-index: -1;
-      background-color: #000;
+      background-color: var(--knop-actief);
       height: 100%;
       left: 0;
       bottom: 0;
@@ -100,9 +100,9 @@ header {
 
    a {
       text-decoration: none;
-      color: #000;
+      color: var(--knop-actief);
       font-size: 1.1rem;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
       font-family: "Hind Guntur", arial;
       height: 5em;
       /*Dit is de hoogte van het atje en de 100% van de after houd deze aan*/
@@ -125,7 +125,7 @@ header {
       &[href="/contact"] {
          @media (min-width: 982px) {
             padding: 10px 30px;
-            background-color: #281CE2;
+            background-color: var(--knop-pagina-nummer-actief);
             color: white;
             margin-left: 250px;
             font-weight: 700;
@@ -211,9 +211,9 @@ header {
    a {
       padding: 20px 40px 20px 20px;
       font-size: 30px;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
       text-decoration: none;
-      color: black;
+      color: var(--knop-actief);
       font-family: "Hind Guntur", arial;
       z-index: 0;
       position: relative;
@@ -244,7 +244,7 @@ header {
    a:hover::after {
       width: 100%;
       /*hiermee wordt hij zichtbaar */
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
    }
 
    input {
@@ -268,7 +268,7 @@ header {
    }
 
    h1 strong {
-      font-weight: 800;
+      font-weight: var(--font-weight-strong);
    }
 
    @media (min-width: 582px) {
@@ -280,7 +280,7 @@ header {
       }
 
       h1 strong {
-         font-weight: 800;
+         font-weight: var(--font-weight-strong);
       }
    }
 
@@ -403,7 +403,7 @@ header {
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -416,7 +416,7 @@ header {
    h2 {
       font-size: 37px;
       line-height: 1.15;
-      font-weight: 200;
+      font-weight: var(--font-weight-normal);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -498,7 +498,7 @@ header {
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
 
       @media (min-width: 1080px) {
          padding-top: 10px;
@@ -524,7 +524,7 @@ header {
    h2 {
       font-size: 37px;
       line-height: 1.15;
-      font-weight: 200;
+      font-weight: var(--font-weight-normal);
 
       @media (min-width: 1080px) {
          font-size: 42px;
@@ -596,7 +596,7 @@ header {
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -703,7 +703,7 @@ header {
    h2 {
       font-size: 37px;
       line-height: 1.15;
-      font-weight: 200;
+      font-weight: var(--font-weight-normal);
 
       @media (min-width: 1080px) {
          font-size: 42px;
@@ -790,7 +790,7 @@ header {
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -803,7 +803,7 @@ header {
    h2 {
       font-size: 37px;
       line-height: 1.15;
-      font-weight: 200;
+      font-weight: var(--font-weight-normal);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -885,7 +885,7 @@ header {
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
 
       @media (min-width: 1080px) {
          padding-top: 10px;
@@ -897,7 +897,7 @@ header {
    h2 {
       font-size: 37px;
       line-height: 1.15;
-      font-weight: 200;
+      font-weight: var(--font-weight-normal);
 
       @media (min-width: 1080px) {
          font-size: 42px;
@@ -985,7 +985,7 @@ header {
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -997,7 +997,7 @@ header {
    h2 {
       font-size: 37px;
       line-height: 1.15;
-      font-weight: 200;
+      font-weight: var(--font-weight-normal);
 
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
@@ -1076,8 +1076,8 @@ header {
    }
 
    button {
-      background-color: #E2655E;
-      color: white;
+      background-color: var(--knop-pagina-nummer);
+      color: var(--knop-actief);
       font-family: "Hind Guntur", arial;
       font-size: 18px;
       width: 65px;
@@ -1086,8 +1086,9 @@ header {
    }
 
    #current {
-      background-color: blue;
+      background-color: var(--knop-pagina-nummer-actief);
       border: none;
+      color: var(--knop);
    }
 }
 
@@ -1099,7 +1100,7 @@ header {
    h3 {
       font-family: "Hind Guntur", arial;
       color: #000;
-      font-weight: 300;
+      font-weight: var(--font-weight-normal);
       font-size: 40px;
 
    }
@@ -1107,19 +1108,19 @@ header {
    strong {
       font-family: "Hind Guntur", arial;
       color: #000;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
    }
 
    button {
       margin-top: 50px;
-      background-color: #E2655E;
-      color: white;
+      background-color: var(--knop-pagina-nummer);
+      color: var(--knop-actief);
       font-family: "Hind Guntur", arial;
       font-size: 18px;
       width: 250px;
       height: 45px;
       border: none;
-      font-weight: 700;
+      font-weight: var(--font-weight-strong);
    }
 
    @media (min-width: 1080px) {
@@ -1132,7 +1133,7 @@ header {
 footer {
    padding: 2rem;
    position: relative;
-   background-color: #E6E6E6;
+   background-color: var(--kleur-footer-bg);
    margin: 3.5rem auto 23rem auto;
 
    footernavigatie {
@@ -1169,7 +1170,7 @@ footer {
       h3 {
          font-family: "Hind Guntur", arial;
          font-size: 28px;
-         font-weight: 300;
+         font-weight: var(--font-weight-normal);
       }
 
       ul {
@@ -1202,7 +1203,7 @@ footer {
       h3 {
          font-family: "Hind Guntur", arial;
          font-size: 28px;
-         font-weight: 300;
+         font-weight: var(--font-weight-normal);
       }
 
       ul {
