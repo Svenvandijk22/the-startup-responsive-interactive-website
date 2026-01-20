@@ -64,15 +64,7 @@ header {
 .header-logo {
    height: 50px;
    width: 220px;
-
-
-
-
-
 }
-
-
-/*d*/
 
 .header-menu {
    display: none;
@@ -142,44 +134,31 @@ header {
    }
 }
 
-
-/*d*/
-
 .fab-menu {
    position: fixed;
    right: 0;
    bottom: 0;
    border: none;
-
-
    z-index: 999;
-
    width: 100px;
    height: 100px;
-
-
    background-color: var(--knop-pagina-nummer);
    color: #fff;
-
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-
    cursor: pointer;
 
    div:nth-child(1) {
-
       border-top: white solid 3px;
       z-index: 99;
       width: 30px;
-
    }
 
    div:nth-child(2) {
       margin-top: 10px;
       margin-bottom: 5px;
-
       border-top: white solid 3px;
       z-index: 99;
       width: 30px;
@@ -188,23 +167,16 @@ header {
 
 
    div:nth-child(3) {
-
-
       border-top: white solid 3px;
       z-index: 99;
       width: 30px;
-
    }
 
 
    @media (min-width: 1082px) {
-
       display: none;
    }
 }
-
-
-
 
 
 .menu-overlay {
@@ -213,10 +185,13 @@ header {
    background: white;
    z-index: 100;
    transition: ease-in 0.2s;
-
    opacity: 0;
    /* dicht */
    padding: 5rem 2rem;
+
+   @media (min-width: 982px) {
+      display: none;
+   }
 }
 
 /* Open state */
@@ -272,29 +247,15 @@ header {
       font-weight: 700;
    }
 
-
-
    input {
       background-color: var(--kleur-footer-bg);
-
       padding: 15px 20px 8px;
       font-family: "Hind Guntur", arial;
       font-size: 16px;
       margin-bottom: 30px;
       border: none;
-
-   }
-
-}
-
-
-/* Desktop: niet nodig */
-@media (min-width: 982px) {
-   .menu-overlay {
-      display: none;
    }
 }
-
 
 
 .page-intro {
@@ -311,14 +272,11 @@ header {
    }
 
    @media (min-width: 582px) {
-
-
       h1 {
          font-size: 40px;
          font-weight: 400;
          padding-left: 10px;
          width: 300px;
-
       }
 
       h1 strong {
@@ -333,7 +291,6 @@ header {
          font-weight: 400;
          padding-left: 210px;
          width: fit-content;
-
       }
 
       h1 strong {
@@ -343,7 +300,6 @@ header {
 }
 
 .voetbal-international-section {
-
    padding: 0 25px;
 
    a {
@@ -362,7 +318,6 @@ header {
          grid-column: 2 / 2;
          grid-row: 2 / 2;
       }
-
    }
 
    h2 {
@@ -374,12 +329,9 @@ header {
          font-size: 42px;
          padding-right: 250px;
          width: 450px;
-
-
          grid-column: 2 / 2;
          grid-row: 1 / 2;
       }
-
    }
 
    .hover-animatie-h2 span {
@@ -388,12 +340,12 @@ header {
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
    p {
       font-size: 19px;
@@ -417,10 +369,8 @@ header {
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          padding-left: 100px;
-
          grid-row: 1 / 3;
          padding-left: 190px;
-
          width: 520px;
          height: 520px;
 
@@ -429,22 +379,17 @@ header {
 
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: 750px auto;
       grid-template-rows: 180px auto;
-
       align-items: start;
       gap: 10px;
-
-
    }
 }
 
 
 .lunar-institute-section {
    padding: 0 25px;
-
    opacity: 0;
    transform: translateY(20px);
    transition: opacity 0.6s ease, transform 0.6s ease;
@@ -463,14 +408,9 @@ header {
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-
-
          width: 500px;
          padding-top: 10px;
-
       }
-
-
    }
 
    h2 {
@@ -484,23 +424,22 @@ header {
          padding-top: 50px;
          width: 500px;
          padding-left: 190px;
-
       }
    }
 
 
-    .hover-animatie-h2 span {
+   .hover-animatie-h2 span {
       background: linear-gradient(black, black);
       background-size: 0 60%;
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
    p {
       font-size: 19px;
@@ -518,27 +457,19 @@ header {
 
    img {
       margin-top: 20px;
-
-
       width: 315px;
       height: 178px;
 
       @media (min-width: 1080px) {
          grid-column: 2/ 2;
-
          grid-row: 1 / 3;
          padding-left: 10px;
-
-
-
          width: 520px;
          height: 520px;
-
       }
    }
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: auto 750px;
       grid-template-rows: 180px auto;
@@ -547,22 +478,16 @@ header {
    }
 }
 
-
 .lunar-institute-section.is-visible {
    opacity: 1;
    transform: translateY(0);
 }
-
-
-
-
 
 .dushi-huis-section {
 
    opacity: 0;
    transform: translateY(20px);
    transition: opacity 0.6s ease, transform 0.6s ease;
-
    padding: 0 25px;
 
    a {
@@ -575,28 +500,25 @@ header {
       font-family: "Hind Guntur", arial;
       font-weight: 700;
 
-
       @media (min-width: 1080px) {
          padding-top: 10px;
          grid-column: 2 / 2;
          grid-row: 2 / 2;
       }
-
    }
 
-   
-    .hover-animatie-h2 span {
+   .hover-animatie-h2 span {
       background: linear-gradient(black, black);
       background-size: 0 60%;
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
 
    h2 {
@@ -609,12 +531,9 @@ header {
          padding-right: 250px;
          width: 450px;
          padding-top: 40px;
-
-
          grid-column: 2 / 2;
          grid-row: 1 / 2;
       }
-
    }
 
    p {
@@ -628,7 +547,6 @@ header {
          padding-top: 10px;
          width: 500px;
       }
-
    }
 
    img {
@@ -637,23 +555,18 @@ header {
       height: 178px;
       margin-top: 20px;
 
-
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          padding-left: 100px;
-
          grid-row: 1 / 3;
          padding-left: 190px;
-
          width: 520px;
          height: 520px;
-
       }
    }
 
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: 750px auto;
       grid-template-rows: 180px auto;
@@ -669,7 +582,6 @@ header {
 }
 
 .munji-section {
-
    opacity: 0;
    transform: translateY(20px);
    transition: opacity 0.6s ease, transform 0.6s ease;
@@ -689,14 +601,9 @@ header {
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-
-
          width: 500px;
          padding-top: 10px;
-
       }
-
-
    }
 
    h2 {
@@ -710,7 +617,6 @@ header {
          padding-top: 80px;
          width: 500px;
          padding-left: 190px;
-
       }
    }
 
@@ -720,12 +626,12 @@ header {
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
 
    p {
@@ -744,37 +650,25 @@ header {
 
    img {
       margin-top: 20px;
-
-
       width: 315px;
       height: 178px;
       filter: grayscale(20%) brightness(95%);
 
       @media (min-width: 1080px) {
          grid-column: 2/ 2;
-
          grid-row: 1 / 3;
          padding-left: 10px;
-
-
-
          width: 520px;
          height: 520px;
-
       }
    }
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: auto 750px;
       grid-template-rows: 180px auto;
       margin-top: 50px;
-
-
       gap: 10px;
-
-
    }
 }
 
@@ -799,13 +693,11 @@ header {
       font-family: "Hind Guntur", arial;
       font-weight: 700;
 
-
       @media (min-width: 1080px) {
          padding-top: 10px;
          grid-column: 2 / 2;
          grid-row: 2 / 2;
       }
-
    }
 
    h2 {
@@ -818,25 +710,24 @@ header {
          padding-right: 250px;
          width: 450px;
          padding-top: 30px;
-
-
          grid-column: 2 / 2;
          grid-row: 1 / 2;
       }
 
    }
+
    .hover-animatie-h2 span {
       background: linear-gradient(black, black);
       background-size: 0 60%;
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
 
    p {
@@ -854,47 +745,35 @@ header {
    }
 
    img {
-
       width: 315px;
       height: 178px;
       margin-top: 20px;
 
-
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          padding-left: 100px;
-
          grid-row: 1 / 3;
          padding-left: 190px;
-
          width: 520px;
          height: 420px;
-
       }
    }
 
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: 750px auto;
       grid-template-rows: 180px auto;
-
       align-items: start;
       gap: 10px;
       margin-top: 50px;
-
-
    }
-
 }
 
 .jurriëns-section.is-visible {
    opacity: 1;
    transform: translateY(0);
 }
-
-
 
 .eurid-section {
    padding: 0 25px;
@@ -916,14 +795,9 @@ header {
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-
-
          width: 450px;
          padding-top: 10px;
-
       }
-
-
    }
 
    h2 {
@@ -937,7 +811,6 @@ header {
          padding-top: 80px;
          width: 420px;
          padding-left: 190px;
-
       }
    }
 
@@ -947,12 +820,12 @@ header {
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
 
    p {
@@ -971,37 +844,25 @@ header {
 
    img {
       margin-top: 20px;
-
-
       width: 315px;
       height: 178px;
       filter: grayscale(20%) brightness(95%);
 
       @media (min-width: 1080px) {
          grid-column: 2/ 2;
-
          grid-row: 1 / 3;
          padding-left: 10px;
-
-
-
          width: 520px;
          height: 470px;
-
       }
    }
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: auto 750px;
       grid-template-rows: 180px auto;
       margin-top: 50px;
-
-
       gap: 10px;
-
-
    }
 }
 
@@ -1011,11 +872,9 @@ header {
 }
 
 .invest-International-section {
-
    opacity: 0;
    transform: translateY(20px);
    transition: opacity 0.6s ease, transform 0.6s ease;
-
    padding: 0 25px;
 
    a {
@@ -1028,13 +887,11 @@ header {
       font-family: "Hind Guntur", arial;
       font-weight: 700;
 
-
       @media (min-width: 1080px) {
          padding-top: 10px;
          grid-column: 2 / 2;
          grid-row: 2 / 2;
       }
-
    }
 
    h2 {
@@ -1047,12 +904,9 @@ header {
          padding-right: 250px;
          width: 450px;
          padding-top: 40px;
-
-
          grid-column: 2 / 2;
          grid-row: 1 / 2;
       }
-
    }
 
    .hover-animatie-h2 span {
@@ -1061,12 +915,12 @@ header {
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
 
    p {
@@ -1089,14 +943,11 @@ header {
       height: 178px;
       margin-top: 20px;
 
-
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          padding-left: 100px;
-
          grid-row: 1 / 3;
          padding-left: 190px;
-
          width: 520px;
          height: 500px;
 
@@ -1105,15 +956,12 @@ header {
 
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: 750px auto;
       grid-template-rows: 180px auto;
-
       align-items: start;
       gap: 10px;
       margin-top: 50px;
-
    }
 }
 
@@ -1134,7 +982,6 @@ header {
       color: #000;
    }
 
-
    .linkbold {
       font-size: 18px;
       font-family: "Hind Guntur", arial;
@@ -1143,14 +990,8 @@ header {
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-
-
          width: 450px;
-
-
       }
-
-
    }
 
    h2 {
@@ -1161,11 +1002,9 @@ header {
       @media (min-width: 1080px) {
          grid-column: 1 / 2;
          grid-row: 1 / 2;
-
          width: 420px;
          padding-left: 190px;
          padding-top: 20px;
-
       }
    }
 
@@ -1175,12 +1014,12 @@ header {
       background-position: 0 0.2em;
       background-repeat: no-repeat;
       transition: background-size .5s ease-out, color 0.5s ease-out;
-}
+   }
 
-.hover-animatie-h2 span:hover {
+   .hover-animatie-h2 span:hover {
       color: white;
       background-size: 100% 60%;
-      }
+   }
 
 
    p {
@@ -1192,44 +1031,31 @@ header {
          padding-left: 190px;
          grid-column: 1 / 2;
          grid-row: 2 / 2;
-
          width: 470px;
       }
    }
 
    img {
       margin-top: 20px;
-
-
       width: 315px;
       height: 178px;
       filter: grayscale(20%) brightness(95%);
 
       @media (min-width: 1080px) {
          grid-column: 2/ 2;
-
          grid-row: 1 / 3;
          padding-left: 10px;
-
-
-
          width: 520px;
          height: 340px;
-
       }
    }
 
    @media (min-width: 1080px) {
-
       display: grid;
       grid-template-columns: auto 750px;
       grid-template-rows: 180px auto;
       margin-top: 50px;
-
-
       gap: 10px;
-
-
    }
 }
 
@@ -1246,10 +1072,7 @@ header {
    padding-top: 100px;
 
    @media (min-width: 1080px) {
-
       padding-left: 215px;
-
-
    }
 
    button {
@@ -1264,13 +1087,12 @@ header {
 
    #current {
       background-color: blue;
-
       border: none;
    }
 }
 
 .upperfooter {
-  
+
    padding: 30px;
    padding-top: 10px;
 
@@ -1279,10 +1101,11 @@ header {
       color: #000;
       font-weight: 300;
       font-size: 40px;
-    
+
    }
 
-   strong{ font-family: "Hind Guntur", arial;
+   strong {
+      font-family: "Hind Guntur", arial;
       color: #000;
       font-weight: 700;
    }
@@ -1299,14 +1122,10 @@ header {
       font-weight: 700;
    }
 
-
    @media (min-width: 1080px) {
-
       padding-left: 215px;
-       display: flex;
-   gap: 150px;
-
-
+      display: flex;
+      gap: 150px;
    }
 }
 
@@ -1342,8 +1161,6 @@ footer {
 
    .bedrijf-info-section {
       margin-top: 2rem;
-
-
    }
 
    .diensten-section {
@@ -1353,14 +1170,11 @@ footer {
          font-family: "Hind Guntur", arial;
          font-size: 28px;
          font-weight: 300;
-
-
       }
 
       ul {
          padding: 0;
          list-style-type: none;
-
       }
 
       li {
@@ -1371,7 +1185,6 @@ footer {
       }
 
       a {
-
          font-family: "Hind Guntur", arial;
          font-size: 18px;
          text-decoration: none;
@@ -1390,14 +1203,11 @@ footer {
          font-family: "Hind Guntur", arial;
          font-size: 28px;
          font-weight: 300;
-
-
       }
 
       ul {
          padding: 0;
          list-style-type: none;
-
       }
 
       li {
@@ -1408,13 +1218,11 @@ footer {
       }
 
       a {
-
          font-family: "Hind Guntur", arial;
          font-size: 18px;
          text-decoration: none;
          color: #000;
       }
-
    }
 
    button {
