@@ -1134,7 +1134,7 @@ footer {
    padding: 2rem;
    position: relative;
    background-color: var(--kleur-footer-bg);
-   margin: 3.5rem auto 23rem auto;
+   margin: 3.5rem auto ;
 
    footernavigatie {
       font-style: normal;
@@ -1162,6 +1162,28 @@ footer {
 
    .bedrijf-info-section {
       margin-top: 2rem;
+    h3 {
+         font-family: "Hind Guntur", arial;
+         font-size: 28px;
+         font-weight: var(--font-weight-normal);
+      }
+
+      ul {
+         padding: 0;
+         list-style-type: none;
+      }
+
+      span{font-family: "Hind Guntur", arial;
+         font-size: 18px;
+         text-decoration: none;
+         color: #000;}
+      a {
+         font-family: "Hind Guntur", arial;
+         font-size: 18px;
+         text-decoration: none;
+         color: #000;
+      }
+
    }
 
    .diensten-section {
@@ -1198,7 +1220,7 @@ footer {
 
    .informatie-section {
       margin-top: 2rem;
-      margin-bottom: 4rem;
+    
 
       h3 {
          font-family: "Hind Guntur", arial;
