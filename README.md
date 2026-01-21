@@ -11,7 +11,7 @@ Ik heb een paar visuele aanpassingen gedaan de huidige casus pagina van labelvie
 
 https://github.com/user-attachments/assets/f19fb8d5-acd9-4a11-bf88-16bdc92c6763
 
-Ook heb ik tekst in buttons aangepast die niet voldeden aan de colorcobtrast richtlijnen
+Ook heb ik tekst in buttons aangepast die niet voldeden aan de colorcontrast richtlijnen 
 
 ## Kenmerken
 
