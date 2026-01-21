@@ -17,7 +17,9 @@ Ik heb voor labelvier ook een nieuwe html structuur gemaakt. Eerst begonnen met 
 
 **Css**
 
-Sections: heb ik ingedeeld in ene grid gebruik gemaakt van 2 row en 2 columns en kon ik met padding er in de kleine aanpassingen waar een element staat
+Sections: heb ik ingedeeld in ene grid gebruik gemaakt van 2 row en 2 columns en kon ik met padding er in de kleine aanpassingen waar een element staat.
+Interactie scroll animatie: Ik heb in een issue een uitleg gemaakt hoe het proces ging wat voor code ik heb toegepast.
+
 
 
 
