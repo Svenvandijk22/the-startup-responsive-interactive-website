@@ -23,9 +23,6 @@ Ik heb voor labelvier ook een nieuwe html structuur gemaakt. Eerst begonnen met 
 
 
 
-
-
-
 ## Bronnen
 
 ## Licentie
