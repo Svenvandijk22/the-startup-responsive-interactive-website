@@ -1,7 +1,3 @@
-Ontwerp en maak een responsive website voor een startup.
-
-
-
 # De redesign van Labelvier casus pagina
 we moesten voor label vier hun casus pagina kwa html structuur opnieuw indelen 
 
