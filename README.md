@@ -1,9 +1,9 @@
 Ontwerp en maak een responsive website voor een startup.
 
-De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+# De redesign van Labelvier casus pagina
+we moesten voor label vier hun casus pagina kwa html structuur opnieuw indelen 
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
