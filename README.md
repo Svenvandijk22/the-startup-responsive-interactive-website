@@ -1,5 +1,9 @@
 # De redesign van Labelvier casus pagina
-we moesten voor label vier hun casus pagina kwa html structuur opnieuw indelen 
+we moesten voor label vier hun casus paginas html structuur opnieuw indelen met alleen html 5 elementen.
+
+## Live demo
+🔗 https://svenvandijk22.github.io/the-startup-responsive-interactive-website/
+
 
 ## Beschrijving
 
@@ -36,8 +40,45 @@ ik heb voor mijn responsive layout 1 breakpoint dat komt omdat de tablet variant
 
 ## Toegankelijkheid
 
-ik heb voor de toegankelijkheid een paar dingen gedaan als eerst een hamburgermenu aangepast van divjes naar een svg hamburger menu 
+Voor de toegankelijkheid heb ik meerdere verbeteringen doorgevoerd. Een van de eerste aanpassingen was het hamburgermenu. Dit menu was oorspronkelijk opgebouwd uit meerdere `div`-elementen gebouwd (3 streepjes), wat voor screenreaders geen duidelijke betekenis heeft met een duidelijke arial label wat duidelijk aangeeft wat het is.
 
+Ik heb dit vervangen door een SVG-gebaseerd hamburgermenu, waardoor:
+- het menu semantischer is opgebouwd
+- de structuur duidelijker is voor schermlezers
+
+## Huisstijl
+
+De huisstijl van dit project was bewust vrij beperkt opgesteld.  
+Er waren duidelijke keuzes gemaakt voor kleuren, fonts en font-weights, wat het consistent toepassen binnen de website overzichtelijker maakte. Wel moesten alle visuele elementen en assets zelf verzamelelen van hun huidige website en toegepassen op ons eigen project.
+
+#### Typografie
+Voor de typografie is gekozen voor één primair font met een fallback:
+
+- **Primair font:** Hind Guntur  
+- **Fallback font:** Arial  
+
+De font-weights zijn beperkt gehouden de om rust te bewaren:
+- **200** voor lopende tekst en koppen (`h1`, `h2`)
+- **700** voor benadrukte tekst, zoals links (`a`) en `strong` binnen koppen
+
+Deze beperkte fontweight set zorgt voor een duidelijke hiërarchie op de site wat ik zelf ook fijn vondt wat het ontwerp niet onnodig complex maakt.
+
+#### Kleurgebruik
+De huisstijl bestaat uit vijf vaste kleuren:
+
+- **#281CE2** – Accentkleur, gebruikt voor knoppen in de header  
+- **#E2655E** – Algemene accentkleur voor de footer en knoppen op de pagina  
+- **#000000** – Tekstkleur en hoverkleur voor links  
+- **#FFFFFF** – Achtergrondkleur voor content  
+- **#EEF9FD** – Hoverkleur voor knoppen  
+
+
+
+
+## Wat ik geleerd heb
+- Het belang van werken met containers in plaats van grote padding-left waarden
+- Waarom flexibele unit zoals  `minmax()` beter schalen dan vaste pixels
+- Hoe CSS Grid helpt bij het maken van overzichtelijke en onderhoudbare layouts
 
 
 
