@@ -21,6 +21,24 @@ Ik heb voor labelvier ook een nieuwe html structuur gemaakt. Eerst begonnen met 
 **Interactie scroll animatie**: Ik heb in een issue een uitleg gemaakt hoe het proces ging wat voor code ik heb toegepast: https://github.com/Svenvandijk22/the-startup-responsive-interactive-website/issues/7 <br>
 **a link animatie**: heb ik met before en after gedaan ook weer een link hoe ik het heb uitgewerkt https://github.com/Svenvandijk22/the-startup-responsive-interactive-website/issues/6
 
+## Responsive
+
+ik heb voor mijn responsive layout 1 breakpoint dat komt omdat de tablet variant en mobiele vaiarnt erg op elkaar lijken de breakpoint die ik heb bepaald is min width 1082 px daarvoor zit alles nog in ene grid
+
+**Mobiele variant**<br>
+<img width="443" height="797" alt="Schermopname (169)" src="https://github.com/user-attachments/assets/1df13a67-2e93-494c-8f04-ab5d59a14253" /><br>
+**tablet versie(had ik achteraf meer naar het midden kunnen alignen)**<br>
+<img width="475" height="627" alt="Schermopname (170)" src="https://github.com/user-attachments/assets/9afbf525-31bf-4f4f-b37c-fd93b60ca78e" /><br>
+**desktopversie met grid layout**<br>
+<img width="1891" height="912" alt="Schermopname (172)" src="https://github.com/user-attachments/assets/3cfb36f9-bab0-484e-b9ba-508955e05ac3" /><br>
+**versie op grotere schermen**<br>
+<img width="1370" height="800" alt="Schermopname (171)" src="https://github.com/user-attachments/assets/228cdee2-e002-4c74-84fa-4ee4e9f03059" />
+
+## Toegankelijkheid
+
+ik heb voor de toegankelijkheid een paar dingen gedaan als eerst een hamburgermenu aangepast van divjes naar een svg hamburger menu 
+
+
 
 
 ## Bronnen
